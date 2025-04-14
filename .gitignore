@@ -1,0 +1,11 @@
+# Ignore .dSYM folders
+*.dSYM/
+
+# Ignore tasks.json
+tasks.json
+
+# Ignore other common VS Code files
+.vscode/
+
+# Ignore macOS-specific files
+.DS_Store
