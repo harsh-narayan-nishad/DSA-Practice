@@ -1,7 +1,7 @@
 # Ignore .dSYM folders
 *.dSYM/
 
-# Ignore tasks.json
+# Ignore tasks.json file
 tasks.json
 
 # Ignore other common VS Code files
