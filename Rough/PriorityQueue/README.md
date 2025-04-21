@@ -154,5 +154,3 @@ This gives the output: `6 8 9` (smallest first).
 
 ---
 ```
-
-This **README.md** now contains all the relevant code examples and explanations in the appropriate sections.
