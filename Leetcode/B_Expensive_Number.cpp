@@ -8,31 +8,16 @@ using ull = unsigned long long;
 ll gcd(ll a, ll b){
     return b ? gcd(b, a % b) : a;
 }
-
-vector<int> to_base_b(int num, int b){
-    vector<int> digits;
-    while(num>0){
-        digits.push_back(num%b);
-        num/=b;
-    }
-    reverse(digits.begin(), digits.end());
-    return  digits;
+void solve(){
     
 }
-
 int main(){
     fastio();
     int t;
     cin >> t;
     while(t--){
-        int num,b;
-        num = 23;
-        b = 8;
-        vector<int> ans = to_base_b(num,b);
-        for(int i:ans){
-            cout<<i;
-        }
-        cout<<endl;
+        solve();
+        cout << endl;
     }
     return 0;
 }
