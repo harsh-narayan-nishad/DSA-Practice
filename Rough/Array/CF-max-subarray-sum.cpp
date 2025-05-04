@@ -8,8 +8,20 @@ using ull = unsigned long long;
 ll gcd(ll a, ll b){
     return b ? gcd(b, a % b) : a;
 }
-void solve(){
-    
+int solve(vector<int> &nums){
+    int maxSum = INT_MIN;
+    for(int i = 0; i<nums.size(); i++){
+        int sum = 0;
+        for(int j = i; j<nums.size(); j++){
+            sum+=nums[j];
+
+            if(sum>maxSum){
+                maxSum = sum;
+            }
+        }
+    }
+
+    return maxSum;
 }
 int main(){
     fastio();
@@ -17,6 +29,11 @@ int main(){
     cin>>n;
     vector<int> nums(n);
     
-    for(int i = 0; i<n; i++)
+    for(int i = 0; i<n; i++){
+        cin>>nums[i];
+    }
+
+    int ans = solve(nums);
+    cout<<ans<<endl;
     return 0;
 }

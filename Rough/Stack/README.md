@@ -90,7 +90,7 @@ void pop() {
 Approach	Queues Used	push()	pop()	top()	Space
 Push Costly	2	O(n)	O(1)	O(1)	O(n)
 Pop Costly	2	O(1)	O(n)	O(n)	O(n)
-Single Queue Optimized	1	O(n)	O(1)	O(1)	O(n)
+1-Q Optimiz	1	O(n)	O(1)	O(1)	O(n)
 🧪 Sample Output
 arduino
 Copy
